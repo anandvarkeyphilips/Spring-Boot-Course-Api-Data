@@ -2,7 +2,7 @@ package io.javabrains.springBootStarter.topic;
 
 import org.springframework.data.repository.CrudRepository;
 
-public interface TopicRepository extends CrudRepository <Topic,Integer>{
+public interface TopicRepository extends CrudRepository <Topic,String>{
 	
 	//get
 }
